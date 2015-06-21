@@ -1,7 +1,5 @@
 package com.bt.patterns;
 
-import static org.junit.Assert.*;
-
 import org.junit.Test;
 
 import com.bt.bluetechnology.patterns.strategy.BuntStrategy;

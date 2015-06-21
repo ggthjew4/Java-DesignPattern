@@ -1,7 +1,5 @@
 package com.bt.patterns;
 
-import static org.junit.Assert.fail;
-
 import org.junit.Test;
 
 import com.bt.bluetechnology.patterns.composite.Clip;

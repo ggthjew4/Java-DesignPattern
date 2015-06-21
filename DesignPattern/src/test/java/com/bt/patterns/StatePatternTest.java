@@ -3,10 +3,11 @@ package com.bt.patterns;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.bt.bluetechnology.patterns.StatePattern.AgentV2;
-import com.bt.bluetechnology.patterns.StatePattern.Dead;
-import com.bt.bluetechnology.patterns.StatePattern.Health;
-import com.bt.bluetechnology.patterns.StatePattern.Injured;
+import com.bt.bluetechnology.patterns.statePattern.AgentV2;
+import com.bt.bluetechnology.patterns.statePattern.Dead;
+import com.bt.bluetechnology.patterns.statePattern.Health;
+import com.bt.bluetechnology.patterns.statePattern.Injured;
+
 
 public class StatePatternTest {
 	@Test

@@ -1,16 +1,18 @@
 package com.bt.patterns;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotSame;
 
 import org.junit.Test;
 
-import com.bt.bluetechnology.patterns.Factory.Drive;
-import com.bt.bluetechnology.patterns.Factory.DriverManager;
-import com.bt.bluetechnology.patterns.Factory.LinuxSATADrive;
-import com.bt.bluetechnology.patterns.Factory.LinuxUSBDrive;
-import com.bt.bluetechnology.patterns.Factory.WinDriverManager;
-import com.bt.bluetechnology.patterns.Factory.WinSATADrive;
-import com.bt.bluetechnology.patterns.Factory.WinUSBDrive;
+import com.bt.bluetechnology.patterns.factory.Drive;
+import com.bt.bluetechnology.patterns.factory.DriverManager;
+import com.bt.bluetechnology.patterns.factory.LinuxSATADrive;
+import com.bt.bluetechnology.patterns.factory.LinuxUSBDrive;
+import com.bt.bluetechnology.patterns.factory.WinDriverManager;
+import com.bt.bluetechnology.patterns.factory.WinSATADrive;
+import com.bt.bluetechnology.patterns.factory.WinUSBDrive;
+
 
 public class FactoryMethod {
 

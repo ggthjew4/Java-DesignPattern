@@ -1,12 +1,13 @@
 package com.bt.patterns;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.bt.bluetechnology.patterns.Template.ConfigParser;
-import com.bt.bluetechnology.patterns.Template.FileConfigParser;
-import com.bt.bluetechnology.patterns.Template.PersonData;
+import com.bt.bluetechnology.patterns.template.ConfigParser;
+import com.bt.bluetechnology.patterns.template.FileConfigParser;
+import com.bt.bluetechnology.patterns.template.PersonData;
+
 
 public class Template {
 
